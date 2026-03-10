@@ -1,0 +1,21 @@
+{
+  "id": "cricclubs-ground-stats",
+  "name": "CricClubs Ground Stats",
+  "description": "Fetch match duration statistics (avg, min, max) per ground from any CricClubs series. Just provide a series URL and get a full breakdown.",
+  "version": "1.0.0",
+  "author": "vineset",
+  "plugins": [
+    {
+      "id": "cricclubs-ground-stats",
+      "name": "CricClubs Ground Stats",
+      "description": "Analyze match durations by ground for any CricClubs cricket league series",
+      "mcpServers": {
+        "cricclubs-ground-stats": {
+          "command": "python",
+          "args": ["cricclubs_ground_stats_mcp.py"],
+          "cwd": "."
+        }
+      }
+    }
+  ]
+}

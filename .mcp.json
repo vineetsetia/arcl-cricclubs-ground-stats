@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cricclubs-ground-stats": {
+      "command": "python",
+      "args": ["C:\\users\\vineset\\claude\\arcl-match-stats\\cricclubs_ground_stats_mcp.py"]
+    }
+  }
+}
